@@ -1,0 +1,66 @@
+{
+    "emissor": {
+        "valor": "COMPANHIA SIDERÚRGICA PARANAENSE S.A.",
+        "confianca": 1.0,
+        "trecho_origem": "COMPANHIA SIDERÚRGICA PARANAENSE S.A."
+    },
+    "cnpj": {
+        "valor": "76.543.210/0001-12",
+        "confianca": 1.0,
+        "trecho_origem": "CNPJ/ME nº 76.543.210/0001-12"
+    },
+    "isin": {
+        "valor": "BRCSPRACNOR1",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação CSPR3 (ISIN BRCSPRACNOR1)"
+    },
+    "ticker": {
+        "valor": "CSPR3",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação CSPR3"
+    },
+    "tipo_evento": {
+        "valor": "Distribuição de Dividendos",
+        "confianca": 1.0,
+        "trecho_origem": "AVISO AOS ACIONISTAS — Distribuição de Dividendos"
+    },
+    "data_aprovacao": null,
+    "data_com": {
+        "valor": "19/06/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Data-base (“data com”) 19/06/2026"
+    },
+    "data_ex": {
+        "valor": "22/06/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Data “ex” 22/06/2026"
+    },
+    "data_pagamento": {
+        "valor": "11/09/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Data de pagamento 11/09/2026"
+    },
+    "valor_bruto": {
+        "valor": "0,0921500000",
+        "confianca": 1.0,
+        "trecho_origem": "Valor bruto por ação ON R$ 0,0921500000"
+    },
+    "valor_liquido": null,
+    "percentual_irrf": {
+        "valor": null,
+        "confianca": 0.0,
+        "trecho_origem": "Imposto de Renda Retido na 17,5%"
+    },
+    "moeda": {
+        "valor": "R$",
+        "confianca": 1.0,
+        "trecho_origem": "Valor bruto por ação ON R$ 0,0921500000"
+    },
+    "status_golden_record": true,
+    "status_coerencia_logica": true,
+    "erros_validacao": [
+        "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual."
+    ],
+    "precisa_revisao_humana": true,
+    "justificativa_revisao": "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual."
+}

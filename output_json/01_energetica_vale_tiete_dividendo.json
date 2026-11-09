@@ -1,0 +1,66 @@
+{
+    "emissor": {
+        "valor": "Energética Vale do Tietê S.A.",
+        "confianca": 1.0,
+        "trecho_origem": "ENERGÉTICA VALE DO TIETÊ S.A."
+    },
+    "cnpj": {
+        "valor": "12.345.678/0001-90",
+        "confianca": 1.0,
+        "trecho_origem": "CNPJ/ME nº 12.345.678/0001-90"
+    },
+    "isin": {
+        "valor": "BRTIETACNOR3",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação TIET3 (ISIN BRTIETACNOR3)"
+    },
+    "ticker": {
+        "valor": "TIET3",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação TIET3"
+    },
+    "tipo_evento": {
+        "valor": "Dividendo",
+        "confianca": 1.0,
+        "trecho_origem": "Tipo de evento Dividendo"
+    },
+    "data_aprovacao": null,
+    "data_com": {
+        "valor": "12/06/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Data-base (“data com”) 12/06/2026"
+    },
+    "data_ex": {
+        "valor": "15/06/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Data “ex-dividendos” 15/06/2026"
+    },
+    "data_pagamento": {
+        "valor": "03/07/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Data de pagamento 03/07/2026"
+    },
+    "valor_bruto": {
+        "valor": "0,4275000000",
+        "confianca": 1.0,
+        "trecho_origem": "Valor bruto por ação ordinária R$ 0,4275000000"
+    },
+    "valor_liquido": null,
+    "percentual_irrf": {
+        "valor": null,
+        "confianca": 0.0,
+        "trecho_origem": "Nos termos da legislação tributária vigente a partir de 1º de janeiro de 2026, os dividendos estarão sujeitos à retenção de Imposto de Renda na Fonte (IRRF) à alíquota de 10% sobre a parcela que exceder R$ 50.000,00 mensais por beneficiário pagos por esta Companhia."
+    },
+    "moeda": {
+        "valor": "R$",
+        "confianca": 1.0,
+        "trecho_origem": "Valor bruto por ação ordinária R$ 0,4275000000"
+    },
+    "status_golden_record": true,
+    "status_coerencia_logica": true,
+    "erros_validacao": [
+        "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual."
+    ],
+    "precisa_revisao_humana": true,
+    "justificativa_revisao": "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual."
+}

@@ -1,0 +1,67 @@
+{
+    "emissor": {
+        "valor": "REDE VAREJO BRASIL S.A.",
+        "confianca": 1.0,
+        "trecho_origem": "REDE VAREJO BRASIL S.A.\nCompanhia Aberta | CNPJ/ME nº 08.777.666/0001-33 | NIRE 35.300.000.004"
+    },
+    "cnpj": {
+        "valor": "08.777.666/0001-33",
+        "confianca": 1.0,
+        "trecho_origem": "Companhia Aberta | CNPJ/ME nº 08.777.666/0001-33 | NIRE 35.300.000.004"
+    },
+    "isin": {
+        "valor": "BRRVBRACNOR9",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação RVBR3 (ISIN BRRVBRACNOR9)"
+    },
+    "ticker": {
+        "valor": "RVBR3",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação RVBR3"
+    },
+    "tipo_evento": {
+        "valor": "Juros sobre o Capital Próprio (JCP)",
+        "confianca": 1.0,
+        "trecho_origem": "Tipo de evento Juros sobre o Capital Próprio (JCP)"
+    },
+    "data_aprovacao": null,
+    "data_com": {
+        "valor": "23/06/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Data-base (“data com”) 23/06/2026"
+    },
+    "data_ex": {
+        "valor": "24/06/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Data “ex-JCP” 24/06/2026"
+    },
+    "data_pagamento": {
+        "valor": null,
+        "confianca": 0.0,
+        "trecho_origem": "Data de pagamento A definir (vide aviso complementar)"
+    },
+    "valor_bruto": {
+        "valor": "0,2050000000",
+        "confianca": 1.0,
+        "trecho_origem": "Valor bruto por ação ON R$ 0,2050000000"
+    },
+    "valor_liquido": null,
+    "percentual_irrf": {
+        "valor": "17,5%",
+        "confianca": 1.0,
+        "trecho_origem": "IRRF na fonte 17,5%"
+    },
+    "moeda": {
+        "valor": "R$",
+        "confianca": 1.0,
+        "trecho_origem": "Valor bruto por ação ON R$ 0,2050000000"
+    },
+    "status_golden_record": true,
+    "status_coerencia_logica": true,
+    "erros_validacao": [
+        "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual.",
+        "CRÍTICO: Data de Pagamento ausente."
+    ],
+    "precisa_revisao_humana": true,
+    "justificativa_revisao": "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual. | CRÍTICO: Data de Pagamento ausente."
+}

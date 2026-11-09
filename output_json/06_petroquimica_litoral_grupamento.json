@@ -1,0 +1,63 @@
+{
+    "emissor": {
+        "valor": "PETROQUÍMICA LITORAL S.A.",
+        "confianca": 1.0,
+        "trecho_origem": "PETROQUÍMICA LITORAL S.A."
+    },
+    "cnpj": {
+        "valor": "55.666.777/0001-08",
+        "confianca": 1.0,
+        "trecho_origem": "CNPJ/ME nº 55.666.777/0001-08"
+    },
+    "isin": {
+        "valor": "BRPQLTACNOR8",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação PQLT3 (ISIN BRPQLTACNOR8)"
+    },
+    "ticker": {
+        "valor": "PQLT3",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação PQLT3"
+    },
+    "tipo_evento": {
+        "valor": "Grupamento de ações (inplit)",
+        "confianca": 1.0,
+        "trecho_origem": "Tipo de evento Grupamento de ações (inplit)"
+    },
+    "data_aprovacao": null,
+    "data_com": {
+        "valor": "30 de maio de 2026",
+        "confianca": 1.0,
+        "trecho_origem": "Santos (SP), 30 de maio de 2026."
+    },
+    "data_ex": {
+        "valor": "30 de maio de 2026",
+        "confianca": 1.0,
+        "trecho_origem": "realizada em 30 de maio de 2026"
+    },
+    "data_pagamento": {
+        "valor": null,
+        "confianca": 0.0,
+        "trecho_origem": "A partir de 29 de junho de 2026, as ações passarão a ser negociadas já grupadas."
+    },
+    "valor_bruto": null,
+    "valor_liquido": null,
+    "percentual_irrf": {
+        "valor": null,
+        "confianca": 0.0,
+        "trecho_origem": "Nenhuma informação"
+    },
+    "moeda": {
+        "valor": null,
+        "confianca": 1.0,
+        "trecho_origem": "Nenhuma informação"
+    },
+    "status_golden_record": true,
+    "status_coerencia_logica": false,
+    "erros_validacao": [
+        "Incoerência de datas: Data Com (30/05/2026) deve ser anterior à Data Ex (30/05/2026).",
+        "CRÍTICO: Data de Pagamento ausente."
+    ],
+    "precisa_revisao_humana": true,
+    "justificativa_revisao": "Incoerência de datas: Data Com (30/05/2026) deve ser anterior à Data Ex (30/05/2026). | CRÍTICO: Data de Pagamento ausente."
+}

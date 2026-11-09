@@ -1,0 +1,66 @@
+{
+    "emissor": {
+        "valor": "Banco Meridional do Brasil S.A.",
+        "confianca": 1.0,
+        "trecho_origem": "BANCO MERIDIONAL DO BRASIL S.A."
+    },
+    "cnpj": {
+        "valor": "60.111.222/0001-55",
+        "confianca": 1.0,
+        "trecho_origem": "CNPJ/ME nº 60.111.222/0001-55"
+    },
+    "isin": {
+        "valor": "BRBMRDACNPR7",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação BMRD4 (ISIN BRBMRDACNPR7)"
+    },
+    "ticker": {
+        "valor": "BMRD4",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação BMRD4"
+    },
+    "tipo_evento": {
+        "valor": "Juros sobre o Capital Próprio (JCP)",
+        "confianca": 1.0,
+        "trecho_origem": "Tipo de evento Juros sobre o Capital Próprio (JCP)"
+    },
+    "data_aprovacao": null,
+    "data_com": {
+        "valor": "16/06/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Data-base (“data com”) 16/06/2026"
+    },
+    "data_ex": {
+        "valor": "17/06/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Data “ex-JCP” 17/06/2026"
+    },
+    "data_pagamento": {
+        "valor": "14/08/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Data de pagamento 14/08/2026"
+    },
+    "valor_bruto": {
+        "valor": "0,1738420000",
+        "confianca": 1.0,
+        "trecho_origem": "Valor bruto por ação preferencial R$ 0,1738420000"
+    },
+    "valor_liquido": null,
+    "percentual_irrf": {
+        "valor": null,
+        "confianca": 0.0,
+        "trecho_origem": "IRRF na fonte 17,5%"
+    },
+    "moeda": {
+        "valor": "R$",
+        "confianca": 1.0,
+        "trecho_origem": "Valor bruto por ação preferencial R$ 0,1738420000"
+    },
+    "status_golden_record": true,
+    "status_coerencia_logica": true,
+    "erros_validacao": [
+        "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual."
+    ],
+    "precisa_revisao_humana": true,
+    "justificativa_revisao": "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual."
+}

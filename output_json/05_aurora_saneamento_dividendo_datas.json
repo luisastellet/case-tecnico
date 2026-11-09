@@ -1,0 +1,63 @@
+{
+    "emissor": {
+        "valor": "AURORA SANEAMENTO S.A.",
+        "confianca": 1.0,
+        "trecho_origem": "AURORA SANEAMENTO S.A."
+    },
+    "cnpj": {
+        "valor": "22.333.444/0001-77",
+        "confianca": 1.0,
+        "trecho_origem": "CNPJ/ME nº 22.333.444/0001-77"
+    },
+    "isin": {
+        "valor": "BRAURSACNOR4",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação AURS3 (ISIN BRAURSACNOR4)"
+    },
+    "ticker": {
+        "valor": "AURS3",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação AURS3"
+    },
+    "tipo_evento": {
+        "valor": "Dividendo intercalar",
+        "confianca": 1.0,
+        "trecho_origem": "Tipo de evento Dividendo intercalar"
+    },
+    "data_aprovacao": null,
+    "data_com": {
+        "valor": "15/07/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Terão direito ao provento os acionistas inscritos nos registros da Companhia ao final do dia 15 de julho de 2026 (“data com”)"
+    },
+    "data_ex": {
+        "valor": "16/07/2026",
+        "confianca": 1.0,
+        "trecho_origem": "As ações serão negociadas “ex-dividendos” a partir de 16 de julho de 2026."
+    },
+    "data_pagamento": {
+        "valor": "10/07/2026",
+        "confianca": 1.0,
+        "trecho_origem": "O crédito aos acionistas ocorrerá na data de pagamento indicada abaixo, por meio da instituição depositária das ações."
+    },
+    "valor_bruto": {
+        "valor": "R$ 0,3100000000",
+        "confianca": 1.0,
+        "trecho_origem": "Valor bruto por ação ON R$ 0,3100000000"
+    },
+    "valor_liquido": null,
+    "percentual_irrf": null,
+    "moeda": {
+        "valor": "R$",
+        "confianca": 1.0,
+        "trecho_origem": "Valor bruto por ação ON R$ 0,3100000000"
+    },
+    "status_golden_record": true,
+    "status_coerencia_logica": false,
+    "erros_validacao": [
+        "Incoerência de datas: Data Ex (16/07/2026) não pode ser posterior ao Pagamento (10/07/2026).",
+        "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual."
+    ],
+    "precisa_revisao_humana": true,
+    "justificativa_revisao": "Incoerência de datas: Data Ex (16/07/2026) não pode ser posterior ao Pagamento (10/07/2026). | CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual."
+}

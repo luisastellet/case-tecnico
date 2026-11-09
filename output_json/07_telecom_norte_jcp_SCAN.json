@@ -1,0 +1,72 @@
+{
+    "emissor": {
+        "valor": "B3 - Bolsa de Valores de São Paulo S.A.",
+        "confianca": 1.0,
+        "trecho_origem": "Aviso aos Acionistas da B3"
+    },
+    "cnpj": {
+        "valor": "43.576.900/0001-92",
+        "confianca": 1.0,
+        "trecho_origem": "CNPJ: 43.576.900/0001-92"
+    },
+    "isin": {
+        "valor": null,
+        "confianca": 0.0,
+        "trecho_origem": "ISIN: BRB3B3B0L00"
+    },
+    "ticker": {
+        "valor": "B3SA3",
+        "confianca": 1.0,
+        "trecho_origem": "Ticker: B3SA3"
+    },
+    "tipo_evento": {
+        "valor": "Aviso aos Acionistas",
+        "confianca": 1.0,
+        "trecho_origem": "Aviso aos Acionistas"
+    },
+    "data_aprovacao": null,
+    "data_com": {
+        "valor": "22/02/2023",
+        "confianca": 1.0,
+        "trecho_origem": "Data de Comunicação: 22/02/2023"
+    },
+    "data_ex": {
+        "valor": "22/02/2023",
+        "confianca": 1.0,
+        "trecho_origem": "Data de Exoneração: 22/02/2023"
+    },
+    "data_pagamento": {
+        "valor": null,
+        "confianca": 0.0,
+        "trecho_origem": "Data de Pagamento: A definir (vide aviso complementar)"
+    },
+    "valor_bruto": {
+        "valor": "R$ 0,50",
+        "confianca": 1.0,
+        "trecho_origem": "Valor Bruto por Ação: R$ 0,50"
+    },
+    "valor_liquido": {
+        "valor": "R$ 0,425",
+        "confianca": 1.0,
+        "trecho_origem": "Valor Líquido por Ação: R$ 0,425, após retenção de IRRF."
+    },
+    "percentual_irrf": {
+        "valor": null,
+        "confianca": 0.0,
+        "trecho_origem": "Proporção de 1 ação nova para cada 20 ações (5%)"
+    },
+    "moeda": {
+        "valor": "R$",
+        "confianca": 1.0,
+        "trecho_origem": "Moeda: R$"
+    },
+    "status_golden_record": false,
+    "status_coerencia_logica": false,
+    "erros_validacao": [
+        "Incompatibilidade cadastral: CNPJ 43.576.900/0001-92, ISIN  ou Ticker B3SA3 não encontrados no golden_records.csv.",
+        "Incoerência de datas: Data Com (22/02/2023) deve ser anterior à Data Ex (22/02/2023).",
+        "CRÍTICO: Data de Pagamento ausente."
+    ],
+    "precisa_revisao_humana": true,
+    "justificativa_revisao": "Incompatibilidade cadastral: CNPJ 43.576.900/0001-92, ISIN  ou Ticker B3SA3 não encontrados no golden_records.csv. | Incoerência de datas: Data Com (22/02/2023) deve ser anterior à Data Ex (22/02/2023). | CRÍTICO: Data de Pagamento ausente."
+}

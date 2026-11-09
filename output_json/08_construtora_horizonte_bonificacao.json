@@ -1,0 +1,66 @@
+{
+    "emissor": {
+        "valor": "CONSTRUTORA HORIZONTE S.A.",
+        "confianca": 1.0,
+        "trecho_origem": "CONSTRUTORA HORIZONTE S.A.\nCompanhia Aberta | CNPJ/ME nº 09.888.999/0001-21 | NIRE 35.300.000.008"
+    },
+    "cnpj": {
+        "valor": "09.888.999/0001-21",
+        "confianca": 1.0,
+        "trecho_origem": "Companhia Aberta | CNPJ/ME nº 09.888.999/0001-21 | NIRE 35.300.000.008"
+    },
+    "isin": {
+        "valor": "BRCNHZACNOR5",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação CNHZ3 (ISIN BRCNHZACNOR5)"
+    },
+    "ticker": {
+        "valor": "CNHZ3",
+        "confianca": 1.0,
+        "trecho_origem": "Código de negociação CNHZ3"
+    },
+    "tipo_evento": {
+        "valor": "Bonificação em ações",
+        "confianca": 1.0,
+        "trecho_origem": "Tipo de evento Bonificação em ações"
+    },
+    "data_aprovacao": null,
+    "data_com": {
+        "valor": "18/06/2026",
+        "confianca": 1.0,
+        "trecho_origem": "As ações passarão a ser negociadas “ex-bonificação” a partir de 19 de junho de 2026."
+    },
+    "data_ex": {
+        "valor": "19/06/2026",
+        "confianca": 1.0,
+        "trecho_origem": "As ações passarão a ser negociadas “ex-bonificação” a partir de 19 de junho de 2026."
+    },
+    "data_pagamento": {
+        "valor": "26/06/2026",
+        "confianca": 1.0,
+        "trecho_origem": "Crédito das ações bonificadas 26/06/2026"
+    },
+    "valor_bruto": {
+        "valor": "7,820000",
+        "confianca": 1.0,
+        "trecho_origem": "O custo unitário atribuído às ações bonificadas, para fins fiscais, é de R$ 7,820000 por ação."
+    },
+    "valor_liquido": null,
+    "percentual_irrf": {
+        "valor": null,
+        "confianca": 0.0,
+        "trecho_origem": "Proporção 1 ação nova para cada 20 ações (5%)"
+    },
+    "moeda": {
+        "valor": "R$",
+        "confianca": 1.0,
+        "trecho_origem": "O custo unitário atribuído às ações bonificadas, para fins fiscais, é de R$ 7,820000 por ação."
+    },
+    "status_golden_record": false,
+    "status_coerencia_logica": true,
+    "erros_validacao": [
+        "Incompatibilidade cadastral: CNPJ 09.888.999/0001-21, ISIN BRCNHZACNOR5 ou Ticker CNHZ3 não encontrados no golden_records.csv."
+    ],
+    "precisa_revisao_humana": true,
+    "justificativa_revisao": "Incompatibilidade cadastral: CNPJ 09.888.999/0001-21, ISIN BRCNHZACNOR5 ou Ticker CNHZ3 não encontrados no golden_records.csv."
+}
