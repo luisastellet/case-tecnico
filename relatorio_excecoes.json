@@ -1,0 +1,34 @@
+[
+    {
+        "documento": "07_telecom_norte_jcp_SCAN.pdf",
+        "motivos": "Incompatibilidade cadastral: CNPJ 43.576.900/0001-92, ISIN  ou Ticker B3SA3 não encontrados no golden_records.csv. | Incoerência de datas: Data Com (22/02/2023) deve ser anterior à Data Ex (22/02/2023). | CRÍTICO: Data de Pagamento ausente."
+    },
+    {
+        "documento": "02_banco_meridional_jcp.pdf",
+        "motivos": "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual."
+    },
+    {
+        "documento": "03_siderurgica_paranaense_proventos.pdf",
+        "motivos": "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual."
+    },
+    {
+        "documento": "01_energetica_vale_tiete_dividendo.pdf",
+        "motivos": "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual."
+    },
+    {
+        "documento": "06_petroquimica_litoral_grupamento.pdf",
+        "motivos": "Incoerência de datas: Data Com (30/05/2026) deve ser anterior à Data Ex (30/05/2026). | CRÍTICO: Data de Pagamento ausente."
+    },
+    {
+        "documento": "05_aurora_saneamento_dividendo_datas.pdf",
+        "motivos": "Incoerência de datas: Data Ex (16/07/2026) não pode ser posterior ao Pagamento (10/07/2026). | CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual."
+    },
+    {
+        "documento": "04_rede_varejo_jcp_sem_data.pdf",
+        "motivos": "CRÍTICO: Valor Líquido ausente ou não informado no documento. Requer análise manual. | CRÍTICO: Data de Pagamento ausente."
+    },
+    {
+        "documento": "08_construtora_horizonte_bonificacao.pdf",
+        "motivos": "Incompatibilidade cadastral: CNPJ 09.888.999/0001-21, ISIN BRCNHZACNOR5 ou Ticker CNHZ3 não encontrados no golden_records.csv."
+    }
+]
